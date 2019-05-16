@@ -1,0 +1,60 @@
+.leaderboard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .25em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 0;
+}
+
+.leaderboard-item:first-child {
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 0.25em;
+}
+
+.leaderboard-item .leaderboard-stats-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.leaderboard-item .leaderboard-stats-container .leaderboard-item-text {
+    font-size: 0.8em;
+    color: #a7acb3;
+}
+
+.leaderboard-item .leaderboard-stats-container img {
+    margin-right: 0.4em;
+}
+
+.leaderboard-item .leaderboard-stats-container:first-child {
+    margin-right: 1em;
+}
+
+.leaderboard-item .leaderboard-sales-image,
+.leaderboard-item .leaderboard-conversion-image {
+    width: 1em;
+}
+
+.leaderboard-item .leaderboard-item-rank {
+    margin-right: 1em;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #556f86;
+}
+
+.leaderboard-item .leaderboard-item-employeeName {
+    flex-grow: 2;
+    text-align: left;
+    font-size: 0.8em;
+    color: #a7acb3;
+}
+
+.leaderboard-item .leaderboard-agent-status {
+    margin-right: 0.5em;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #64D77D;
+    border-radius: 50%
+}

@@ -1,0 +1,16 @@
+version: '2'
+services:
+  app:
+    build: .
+    restart: always
+    ports:
+      - 80:8080
+      - 443:8080
+    environment:
+      - NODE_ENV=production
+      - PORT=8080
+      - HOST=0.0.0.0
+volumes:
+  cresta:
+    external:
+      name: sales-leader-front

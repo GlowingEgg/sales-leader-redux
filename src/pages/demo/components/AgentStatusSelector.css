@@ -1,0 +1,56 @@
+.AgentStatusSelector {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  box-sizing: border-box;
+  width: 175px;
+  top: 20px;
+  left: 37.5px;
+  background-color: #3c4e6a;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2.5px 15px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:    0px 2.5px 15px 0px rgba(50, 50, 50, 0.3);
+  box-shadow:         0px 2.5px 15px 0px rgba(50, 50, 50, 0.3);
+}
+
+.AgentStatusSelectorItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.AgentStatusSelectorSecondaryItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.OnlineDot {
+  height: 8px;
+  width: 8px;
+  background-color: #24da76;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.OfflineDot {
+  height: 8px;
+  width: 8px;
+  background-color: #ccd3de;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.AgentStatusSelectorText {
+  flex: 1;
+  font-size: 12px;
+  color: #caced6;
+  padding-left: 12px;
+  margin: 0px;
+  margin-right: 72px;
+  font-family: 'Lato-Bold';
+}

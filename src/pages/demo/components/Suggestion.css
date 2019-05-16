@@ -1,0 +1,36 @@
+.Suggestion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.SuggestionContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #1F8EFA;
+  border-radius: 8px;
+  margin-right: 12px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #F9FBFF;
+}
+
+.SuggestionContentText {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.SuggestionContentFooterText {
+  margin: 0px;
+  font-size: 10px;
+  color: #babfc4;
+  margin-top: 16px;
+}
+
+.SuggestionThumb {
+  cursor: pointer;
+  width: 8%;
+  height: 8%;
+}

@@ -1,0 +1,40 @@
+.ChatHeader {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #f0f0f0;
+  padding: 18px;
+}
+
+.ChatHeaderNameRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.ChatHeaderName {
+  flex: 1;
+  margin: 0px;
+  font-size: 20px;
+  color: #4d5f7a;
+  font-family: 'Lato-Bold';
+}
+
+.ChatHeaderOptionsImage {
+  margin-left: 5px;
+  height: 18px;
+}
+
+.ChatHeaderButtonsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.ChatHeaderButtons {
+  margin-right: 15px;
+  width: 22px;
+  height: 20px;
+}

@@ -1,0 +1,13 @@
+.SideConversationBar {
+  background-color: #1c3756;
+  width: 250px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.ConversationList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 88px;
+}

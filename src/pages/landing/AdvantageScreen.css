@@ -1,0 +1,221 @@
+.AdvantageScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 80px 110px 55px 120px;
+  min-height: 650px;
+  overflow: hidden;
+}
+
+.AdvantageTitle {
+  font-size: 40px;
+  color: #1d3855;
+  margin: 0px;
+  margin-top: -1em;
+  margin-bottom: 1em;
+  font-family: 'Lato-Black';
+  text-align: center;
+}
+
+.AdvantageContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 100px 0px;
+  min-width: 800px;
+  max-width: 1080px;
+}
+
+.AdvantageContentRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+}
+
+.AdvantageContentItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  margin: 0px 25px;
+}
+
+.AdvantageContentImage {
+  border-radius: 7px;
+  width: 100px;
+  height: auto;
+  -webkit-box-shadow: 0px 2.5px 15px 0px #1f8efa;
+  -moz-box-shadow:    0px 2.5px 15px 0px #1f8efa;
+  box-shadow:         0px 2.5px 15px 0px #1f8efa;
+}
+
+.AdvantageContentItemText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  align-self: flex-start;
+}
+
+.AdvantageContentItemTitleText {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: left;
+  color: #1d3855;
+  margin: 0px;
+  font-family: 'Lato-Bold';
+}
+
+.AdvantageContentItemSubText {
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  color: #6E737A;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0px;
+  margin-top: 4px;
+}
+
+/* MOBILE LAYOUT */
+@media (max-width: 1023px) {
+
+  .AdvantageScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 60px 8%;
+  }
+
+  .AdvantageTitle {
+    font-size: 36px;
+    color: #1d3855;
+    margin: 0px;
+    font-family: 'Lato-Black';
+    text-align: center;
+  }
+
+  .AdvantageContent {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .AdvantageContentRow {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .AdvantageContentItem {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .AdvantageContentImage {
+    border-radius: 7px;
+    width: 125px;
+    height: auto;
+    -webkit-box-shadow: 0px 2.5px 15px 0px #1f8efa;
+    -moz-box-shadow:    0px 2.5px 15px 0px #1f8efa;
+    box-shadow:         0px 2.5px 15px 0px #1f8efa;
+    margin-top: 60px;
+  }
+
+  .AdvantageContentItemText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-self: auto;
+  }
+
+  .AdvantageContentItemTitleText {
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1d3855;
+    margin: 0px;
+    font-family: 'Lato-Bold';
+    margin-top: 25px;
+  }
+
+  .AdvantageContentItemSubText {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    color: #6E737A;
+    margin: 0px;
+    margin-top: 15px;
+  }
+
+}
+
+/* HUGE LAYOUT */
+@media (min-width: 1550px) {
+
+  .AdvantageTitle {
+    font-size: 46px;
+    color: #1d3855;
+    margin: 0px;
+    margin-top: -3em;
+    margin-bottom: 1em;
+    font-family: 'Lato-Black';
+    text-align: center;
+  }
+
+  .AdvantageContentRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 95px;
+  }
+
+  .AdvantageContentImage {
+    border-radius: 7px;
+    width: 116px;
+    height: auto;
+    -webkit-box-shadow: 0px 2.5px 15px 0px #1f8efa;
+    -moz-box-shadow:    0px 2.5px 15px 0px #1f8efa;
+    box-shadow:         0px 2.5px 15px 0px #1f8efa;
+  }
+
+  .AdvantageContentItemTitleText {
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: left;
+    color: #1d3855;
+    margin: 0px;
+    font-family: 'Lato-Bold';
+  }
+
+  .AdvantageContentItemSubText {
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+    color: #6E737A;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0px;
+    margin-top: 4px;
+  }
+
+}

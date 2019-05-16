@@ -1,0 +1,33 @@
+.CoxChatTextBoxIncoming {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  max-width: 50%;
+  max-height: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  align-self: flex-start;
+  word-wrap: break-word;
+}
+
+.CoxChatTextIncomingText {
+  margin: 0px;
+  font-size: 14px;
+  color: #446ea7;
+}
+
+.CoxChatTextBoxOutgoing {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  max-width: 50%;
+  max-height: 100%;
+  padding: 8px;
+  background-color: #f5f6f7;
+  margin-bottom: 12px;
+  align-self: flex-end;
+  word-wrap: break-word;
+}
+
+.CoxChatTextOutgoingText {
+  margin: 0px;
+  font-size: 14px;
+}

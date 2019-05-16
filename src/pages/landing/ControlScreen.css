@@ -1,0 +1,227 @@
+.ControlScreen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  min-height: 700px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5%;
+  max-width: 1150px;
+}
+
+.ControlImageBox {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.ControlImage {
+  width: 575px;
+  height: auto;
+}
+
+.ContentBox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+  min-width: 300px;
+}
+
+.ContentTitle {
+  margin: 0px;
+  font-size: 40px;
+  line-height: 1.25;
+  color: #1d3855;
+  font-family: 'Lato-Black';
+  text-align: left;
+}
+
+.ContentDescription {
+  margin: 8px 0px 0px 0px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #556f86;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: 'Lato-Bold';
+}
+
+.ContentItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.ContentItemImage {
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.ContentItemTextContainer {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.ContentItemTitle {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #438af1;
+  margin: 0px;
+  font-family: 'Lato-Bold';
+}
+
+.ContentItemDescription {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: #6E737A;
+  margin: 5px 0px 0px 0px;
+}
+
+/* MOBILE LAYOUT */
+@media (max-width: 1023px) {
+
+  .ControlScreen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    min-height: 0;
+  }
+
+  .Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 60px;
+  }
+
+  .ControlImage {
+    width: 400px;
+    max-width: 100vh;
+    height: auto;
+    align-self: center;
+    margin: 25px 0 0 0;
+  }
+
+  .ContentBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 7%;
+    max-width: 500px;
+    min-width: 0;
+  }
+
+  .ContentTitle {
+    font-size: 36px;
+    line-height: 1.25;
+    color: #1d3855;
+    font-family: 'Lato-Black';
+    text-align: left;
+  }
+
+  .ContentDescription {
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    color: #556f86;
+    font-family: 'Lato-Bold';
+  }
+
+  .ContentItemImage {
+    height: 50px;
+    width: 50px;
+    margin: 10px 25px 0 0;
+    align-self: flex-start;
+  }
+
+}
+
+/* HUGE LAYOUT */
+@media (min-width: 1550px) {
+
+  .Content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5%;
+    max-width: 1340px;
+  }
+
+  .ControlImage {
+    width: 700px;
+    height: auto;
+  }
+
+  .ContentTitle {
+    margin: 0px;
+    font-size: 44px;
+    line-height: 1.25;
+    color: #1d3855;
+    font-family: 'Lato-Black';
+    text-align: left;
+  }
+
+  .ContentDescription {
+    margin: 24px 0px 0px 0px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #556f86;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Lato-Bold';
+  }
+
+  .ContentItemImage {
+    height: 64px;
+    width: 64px;
+    margin-right: 25px;
+  }
+
+  .ContentItemTitle {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #438af1;
+    margin: 0px;
+    font-family: 'Lato-Bold';
+  }
+
+  .ContentItemDescription {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    color: #6E737A;
+    margin: 5px 0px 0px 0px;
+  }
+
+}

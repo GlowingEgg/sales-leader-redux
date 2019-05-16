@@ -1,0 +1,12 @@
+.ChatClient {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex: 1;
+  align-self: center;
+  border: 2px solid #f0f0f0;
+  overflow: auto;
+}

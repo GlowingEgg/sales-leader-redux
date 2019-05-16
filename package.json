@@ -1,0 +1,38 @@
+{
+  "name": "sales-leader-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-autosize-textarea": "^4.0.0",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-responsive": "^4.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "start": "yarn run dev",
+    "dev-server": "DEBUG=api* nodemon server.js",
+    "dev-client": "react-scripts start",
+    "dev": "concurrently \"yarn install && yarn run build && yarn run dev-server\" \"yarn run dev-client\"",
+    "build": "react-scripts build",
+    "serve": "node server.js",
+    "prod-preview": "concurrently \"yarn run build && yarn run serve\" \"wait-on http://localhost:8080 && open http://localhost:8080\"",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.3",
+    "wait-on": "^2.1.0"
+  },
+  "proxy": "http://localhost:8080"
+}

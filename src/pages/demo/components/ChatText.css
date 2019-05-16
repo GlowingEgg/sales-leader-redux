@@ -1,0 +1,30 @@
+.ChatTextBoxIncoming {
+  border-radius: 8px;
+  max-width: 50%;
+  padding: 8px;
+  margin-bottom: 12px;
+  align-self: flex-start;
+  word-wrap: break-word;
+  background-color: #F2F2F2;
+}
+
+.ChatTextIncomingText {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.ChatTextBoxOutgoing {
+  border-radius: 8px;
+  max-width: 50%;
+  padding: 8px;
+  background-color: #1F8EFA;
+  margin-bottom: 12px;
+  align-self: flex-end;
+  word-wrap: break-word;
+}
+
+.ChatTextOutgoingText {
+  margin: 0px;
+  font-size: 14px;
+  color: #ffffff;
+}
